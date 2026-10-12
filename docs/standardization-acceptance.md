@@ -9,7 +9,7 @@ This repository follows the OSYSTIC public engineering showcase pattern:
 - no client identity or commercial records
 - schema v2 publication metadata
 - website-ready canonical slug
-- disclosure-boundary CI
+- disclosure-boundary controls
 - evidence-backed aggregate claims only
 
 The confidential engineering repository remains separate and private.
