@@ -1,0 +1,64 @@
+schema_version: 2
+repository_class: public-showcase
+visibility: public
+lifecycle: maintenance
+business_owner: Shawaiz Arif
+technical_owner: OSYSTIC
+owner_team: engineering
+data_classification: public-sanitized
+
+project:
+  key: employee-attrition-powerbi-dashboard
+  name: Employee Attrition Power BI Dashboard
+  status: completed
+
+portfolio:
+  eligible: true
+  status: approved-public-showcase
+  publisher: OSYSTIC
+  presentation_standard: company-engineering-case-study
+
+website:
+  eligible: true
+  status: ready-for-review
+  canonical_slug: employee-attrition-powerbi-dashboard
+  auto_sync: true
+
+publication:
+  client_identity_public: false
+  confidential_content_removed: true
+  credentials_included: false
+  private_infrastructure_included: false
+  contract_or_payment_details_included: false
+  private_conversations_included: false
+  private_customer_data_included: false
+  implementation_artifacts_included: false
+  independent_git_history: true
+
+source:
+  type: sanitized-client-delivery
+  source_code_included: false
+  confidential_source_linked: false
+  raw_data_included: false
+  delivery_binary_included: false
+
+claims:
+  causality_claimed: false
+  individual_prediction_claimed: false
+  production_hr_decisioning_claimed: false
+
+validation:
+  private_baseline_reopened: true
+  private_baseline_population: 4410
+  private_baseline_attrition_employees: 711
+  private_baseline_attrition_rate: 0.1612
+  public_safety_ci_required: false
+
+delivery:
+  default_branch: main
+  ci_required: false
+  production_environment: false
+
+controls:
+  secrets_in_git_allowed: false
+  public_publication_allowed: true
